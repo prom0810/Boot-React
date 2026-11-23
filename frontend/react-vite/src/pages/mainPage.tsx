@@ -1,7 +1,16 @@
+import { NavLink } from "react-router";
+
 function MainPage() {
     return (
+
         <div className = "text-3xl">
-            <h1>Main Page</h1>
+
+            <div className = "flex">
+                <NavLink to = '/about'>About</NavLink>
+            </div>
+
+            <div>Main Page</div>
+            
         </div>
     );
 }
